@@ -41,7 +41,14 @@ public class Boletin11 {
        G.setMes(2);
        G.setDia(29);
        System.out.println(G.getDia() +"/"+ G.getMes() +"/"+ G.getAno());
-       }
-               
+       
+    
+       NumeroComplejo a,b,c;
+       a=new NumeroComplejo(1,2);
+       b=new NumeroComplejo(3,4);
+       c=a.add(b);
+       System.out.println("Numero Complejo:\n" + c.toString());
+        System.out.println(c.ZERO);
+    }
 }
     
